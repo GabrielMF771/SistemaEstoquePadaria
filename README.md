@@ -28,7 +28,7 @@ Este projeto implementa um sistema de gerenciamento de produtos e estoque para u
 ## Configuração do Banco de Dados:
 >
 > * Configure as credenciais do banco de dados no arquivo `src/main/java/ucb/estudo/dao/ConexaoMySQL`.
-> * 2. Criar o banco e rodar os scripts SQL (fornecidos no README em [Scripts SQL](#scripts-sql)
+> * Criar o banco e rodar os scripts SQL (fornecidos no README em [Scripts SQL](#scripts-sql)
 
 ---
 
