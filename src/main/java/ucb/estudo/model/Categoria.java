@@ -1,0 +1,50 @@
+package ucb.estudo.model;
+
+public class Categoria {
+    private int categoriaId;
+    private String nome;
+    private String descricao;
+
+    // Construtores
+    public Categoria() {}
+
+    public Categoria(int categoriaId, String nome, String descricao) {
+        this.categoriaId = categoriaId;
+        this.nome = nome;
+        this.descricao = descricao;
+    }
+
+    // Getters e Setters
+    public int getCategoriaId() {
+        return categoriaId;
+    }
+
+    public void setCategoriaId(int categoriaId) {
+        this.categoriaId = categoriaId;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public String getDescricao() {
+        return descricao;
+    }
+
+    public void setDescricao(String descricao) {
+        this.descricao = descricao;
+    }
+
+    @Override
+    public String toString() {
+        return "Categoria{" +
+                "categoriaId=" + categoriaId +
+                ", nome='" + nome + '\'' +
+                ", descricao='" + descricao + '\'' +
+                '}';
+    }
+}
