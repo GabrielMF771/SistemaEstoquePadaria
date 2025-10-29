@@ -38,6 +38,12 @@
 
 ---
 
+## Diagrama do Banco de Dados
+
+![Diagrama do banco](https://imgur.com/kfHgTZl.png)
+
+---
+
 ## Scripts SQL
 
 Script para criar as tabelas no banco de dados MySQL:
