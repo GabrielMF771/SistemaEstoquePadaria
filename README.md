@@ -1,11 +1,34 @@
 # Sistema de Estoque de uma Padaria em Java
 
-- Sistema de gerenciamento de produtos de uma padaria com conexão a MySQL e operações básicas de listagem.
-- Projeto em Java com Maven, seguindo padrão DAO.
+## Propósito e Escopo
+Este projeto implementa um sistema de gerenciamento de produtos e estoque para uma padaria, em MySQL e interface de linha de comando. Escopo: operações básicas de consulta e manutenção de produtos, categorias e estoque, integração com banco de dados e demonstração funcional.
+
+## Objetivos Específicos
+1. Manter cadastro de categorias de produtos.
+2. Manter cadastro de produtos associados a categorias.
+3. Controlar e exibir o estoque por produto.
+4. Fornecer persistência em MySQL via padrão DAO.
+5. Permitir execução e demonstração no ambiente de desenvolvimento (Maven).
+
+## Funcionalidades Principais
+1. Listar categorias e produtos.
+2. Consultar quantidade em estoque por produto.
+3. CRUD básico (DAO) para Categoria, Produto e Estoque.
+4. Conexão configurável com MySQL.
+
+## Histórias de Usuário (HU) selecionadas para desenvolvimento
+- HU-01: Listar produtos cadastrados — Implementada.
+- HU-02: Listar categorias — Implementada.
+- HU-03: Visualizar estoque de um produto — Implementada.
+- HU-04: Cadastrar/Editar/Remover produto — Suporte via DAO; UI básica pode estar parcial.
+- HU-05: Cadastrar/Editar/Remover categoria — Suporte via DAO; UI básica pode estar parcial.
+
+---
 
 ## Configuração do Banco de Dados:
 >
 > * Configure as credenciais do banco de dados no arquivo `src/main/java/ucb/estudo/dao/ConexaoMySQL`.
+> * 2. Criar o banco e rodar os scripts SQL (fornecidos no README em [Scripts SQL](#scripts-sql)
 
 ---
 
@@ -116,3 +139,7 @@ INSERT INTO Estoque (produto_id, quantidade) VALUES
 (3, 50),    -- Croissant
 (4, 200);   -- Pão de Queijo
 ```
+
+## Observações finais
+- Configure corretamente `ConexaoMySQL` antes de executar.
+- Caso precise, os scripts SQL de criação e povoamento estão incluídos no README original e podem ser salvos como arquivos `.sql` e executados no cliente MySQL.
