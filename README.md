@@ -20,8 +20,8 @@ Este projeto implementa um sistema de gerenciamento de produtos e estoque para u
 - HU-01: Listar produtos cadastrados — Implementada.
 - HU-02: Listar categorias — Implementada.
 - HU-03: Visualizar estoque de um produto — Implementada.
-- HU-04: Cadastrar/Editar/Remover produto — Suporte via DAO; UI básica pode estar parcial.
-- HU-05: Cadastrar/Editar/Remover categoria — Suporte via DAO; UI básica pode estar parcial.
+- HU-04: Cadastrar/Editar/Remover produto — Suporte via DAO; UI básica.
+- HU-05: Cadastrar/Editar/Remover categoria — Suporte via DAO; UI básica.
 
 ---
 
